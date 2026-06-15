@@ -1,4 +1,4 @@
-package br.senai.semana_06.model
+package br.senai.semana_06.validation
 
 sealed class ResultadoValidacao{
     object Valido: ResultadoValidacao()

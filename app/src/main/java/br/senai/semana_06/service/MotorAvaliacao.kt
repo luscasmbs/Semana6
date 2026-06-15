@@ -1,4 +1,8 @@
-package br.senai.semana_06.model
+package br.senai.semana_06.service
+
+import br.senai.semana_06.validation.Entrega
+import br.senai.semana_06.validation.Penalidade
+import br.senai.semana_06.validation.RegraAvaliacao
 
 class MotorAvaliacao(
     val regra: List<RegraAvaliacao>
