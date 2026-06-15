@@ -8,7 +8,8 @@ sealed class ResultadoValidacao{
 data class Entrega(
     val readme: Boolean,
     val commits: Int,
-    val checklist: Boolean
+    val checklist: Boolean,
+    val evidencias: Boolean
 )
 fun ValidarEntrega(entrega: Entrega): ResultadoValidacao{
     val erros = mutableListOf<String>()
